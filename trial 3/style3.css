@@ -1,0 +1,11 @@
+html {
+
+    
+}
+
+@font-face {
+    font-family: KenyanCoffee;
+    src: url(fonts/kenyan.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
