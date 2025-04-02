@@ -1,0 +1,54 @@
+.title {
+    text-align: center  ;
+    color: white;
+    border: white;
+    
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    font-family: 'Ethnocentric';
+    
+}
+
+nav ul {
+    text-decoration: none;
+    margin: 0;
+    padding: 25px;
+    display: flex;
+    text-align: center;
+}
+
+nav a {
+    color: #00ff00;
+    display: inline;
+    
+}
+
+nav li {
+    padding: 30px;
+    padding-top: 2px;
+    
+}
+
+
+nav {
+     display: flex;
+     justify-content: center;
+     font-style: italic;
+}
+
+hr {
+    border-width: 3px  ;
+    background-color: white;
+    border-color: white;
+    border-top: none;
+}
+
+@font-face {
+    font-family: Ethnocentric;
+    src: url('fonts/Ethnocentric.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
