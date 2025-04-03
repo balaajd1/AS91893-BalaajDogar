@@ -1,11 +1,51 @@
 html {
-
+background-color: rgb(61, 61, 61);
+font-family: 'kenyancoffee';
+margin: 0;
+padding: 0;
     
 }
 
 @font-face {
-    font-family: KenyanCoffee;
-    src: url(fonts/kenyan.otf) format('opentype');
+    font-family: 'KenyanCoffee';
+    src: url('/AS91893/AS91893-BalaajDogar/fonts/kenyan.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
+}
+
+.head {
+    text-align: center;
+    color: white;
+}
+.title
+ul {
+
+} 
+
+li {
+    display: inline-block;
+    justify-content: center;
+}
+p{
+    font-size: 80px;
+}
+nav {
+    text-align: center;
+    padding-right: 45px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(141, 141, 141);
+    position: fixed;
+    top: 0;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    padding:40px;
+}
+
+.pagecontainer{
+    padding-top: 200px;
 }
