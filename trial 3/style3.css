@@ -6,6 +6,12 @@ padding: 0;
     
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'KenyanCoffee';
     src: url('/AS91893/AS91893-BalaajDogar/fonts/kenyan.otf') format('opentype');
@@ -15,50 +21,92 @@ padding: 0;
 
 .head {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(rgb(55, 55, 55), rgb(184, 184, 179));
+
 }
 
 .title {
     
 }
 
-ul {
-
+.pagecontainer{
+    font: 500px;
+    padding-top: 200px;
 } 
-
-li {
-    display: inline-block;
-    justify-content: center;
-    border-right: 2px solid;
-    border-color: rgb(255, 255, 255);
-    padding-bottom: 4px;
-    
+.pagecontainer{
+    padding-top: 200px;
 }
+
+.headerwrap {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(rgb(55, 55, 55), rgb(184, 184, 179))  ;
+}
+
 p{
     font-size: 80px;
 }
 nav {
-    text-align: left;  
-    padding-right: 45px;
+    text-align: center;
     width: 100%;
     background-color: white;
     display: flex;
-    flex-direction: column; 
-    background-color: rgb(141, 141, 141);
+    flex-direction: row;
+    justify-content: center; 
+    background-image: linear-gradient(rgb(55, 55, 55), rgb(184, 184, 179));
+    top: 70px;
+    margin: 0;
+    margin-left: ;
     position: fixed;
-    top: 0;
+    padding: 10px;
+    word-spacing: 100px;
+    padding-left: 125px;
     
 }
 
-nav a {
+.nav-item {
     color: rgb(255, 255, 255);
-    padding: 40px;
-    text-decoration: none;
-    
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #00a8ff;
+    transition: width 0.3s ease;
+}
+
+.nav-item:hover {
+    transform: translateY(-5px) scale(1.1);
+    color: #00a8ff;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
 
 }
 
 .pagecontainer{
     padding-top: 200px;
     margin: 0;
+}
+
+#nav a :hover {
+    color: aliceblue;
 }
