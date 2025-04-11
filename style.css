@@ -1,5 +1,5 @@
 * {
-    background-color: grey;
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
 }
@@ -23,11 +23,21 @@
     display: flex;
     height: 60px;
     padding-top: 10px;
+    padding-left: 30px;
 }
 
 #carlogo {
     display: flex;
     justify-content: center;
+    
+}
+
+#carlogo img {
+    background-color: rgba(195, 195, 195, 0.407);
+    height: 46px;
+    display: block;
+
+    
 }
 
 .navlinks {
@@ -36,7 +46,40 @@
     align-items: center;
     gap: 300px;
     padding-right: 20px;
-    background-color: red;
-    margin: 18%;
-    margin-top: 0;
+    background-color: rgba(195, 195, 195, 0.407);
+    max-width: 64%;
+    margin: 0 auto;
+    
+    
+}
+
+.nav {
+    padding-top: 5px;
+    
+}
+
+.nav a {
+    color: white;
+    background-color: rgba(195, 195, 195, 0.01);
+    text-decoration: none;
+    font-family: Ethnocentric;
+}
+
+.phonelogo {
+    display: flex;
+    float: left;
+    align-items: left;
+}
+
+.phonelogo img {
+    height: 46px;
+    padding-right: 50px;
+    float: left;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
